@@ -1,1 +1,3 @@
 # Item-Demand-Forecasting-LightGBM
+The goal of the model is to Predict the demand for the next 3 months at the item level for this I am using the  # Light Gradient Boosting Machine[https://lightgbm.readthedocs.io/en/latest/] 
+The given dataset consists of 5 year of the data  from 2013-2017 which consists of 50 items , 10 stores and sales which are divided into train, test, and vaildation data based on there year as we need to predict the sales for next 3 months for that I have  taken the sales of 1 of jan 2013 and added the  90 days to it and done like that for weekly base and  group the data by item and quarter and date level and fit the model using the light GBM model it gives the accuracy of 88% on test data
